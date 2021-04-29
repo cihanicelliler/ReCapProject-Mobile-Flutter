@@ -26,7 +26,7 @@ class RoundedInputField extends StatelessWidget {
               color: kPrimaryColor,
             ),
             border: InputBorder.none,
-            hintText: "E-mail",
+            hintText: hintText,
             hintStyle: TextStyle(color: kPrimaryColor, fontSize: 20)),
       ),
     );

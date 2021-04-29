@@ -17,7 +17,7 @@ class AlreadyHaveAnAccountCheck extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Text(
-            login ? "Üye değil misin? ":"Zaten bir hesabın var mı?",
+            login ? "Üye değil misin? ":"Zaten bir hesabın var mı? ",
             style: TextStyle(fontSize: 15, color: kPrimaryColor)),
         GestureDetector(
           onTap: press,
